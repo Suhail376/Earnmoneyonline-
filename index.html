@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آن لائن پیسے کمائیں</title>
+  <style>
+    body {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      background-color: #f7f9fc;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #fff;
+      padding: 10px;
+      text-align: left;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .form-container {
+      background: #f1f1f1;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      border-radius: 8px;
+    }
+    input[type="text"], input[type="password"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      margin-top: 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>آن لائن پیسے کمائیں</h1>
+  </header>
+
+  <nav>
+    <a href="#login">لاگ اِن</a>
+    <a href="#signup">سائن اپ</a>
+  </nav>
+
+  <div class="container">
+    <h2>خوش آمدید</h2>
+    <p>یہ بلاگ آپ کو آن لائن پیسے کمانے کے مختلف طریقوں سے آگاہ کرے گا جیسے کہ فری لانسنگ، یوٹیوب، ایفیلیئٹ مارکیٹنگ، اور مزید۔</p>
+  </div>
+
+  <div class="form-container" id="login">
+    <h2>لاگ اِن</h2>
+    <form>
+      <input type="text" placeholder="یوزرنیم" required>
+      <input type="password" placeholder="پاس ورڈ" required>
+      <input type="submit" value="لاگ اِن کریں">
+    </form>
+  </div>
+
+  <div class="form-container" id="signup">
+    <h2>سائن اپ</h2>
+    <form>
+      <input type="text" placeholder="یوزرنیم" required>
+      <input type="email" placeholder="ای میل" required>
+      <input type="password" placeholder="پاس ورڈ" required>
+      <input type="submit" value="اکاؤنٹ بنائیں">
+    </form>
+  </div>
+</body>
+</html>
